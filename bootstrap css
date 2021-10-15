@@ -1,0 +1,149 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  position: relative;
+  background: url("https://bootstrapmade.com/demo/templates/NewBiz/assets/img/hero-bg.png") center bottom no-repeat;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+}
+@media (max-width: 991px) {
+  #hero {
+    padding: 140px 0 60px 0;
+  }
+}
+@media (max-width: 574px) {
+  #hero {
+    padding: 100px 0 20px 0;
+  }
+}
+#hero .hero-img {
+  width: 50%;
+  float: right;
+}
+@media (max-width: 991px) {
+  #hero .hero-img {
+    width: 80%;
+    float: none;
+    margin: 0 auto 25px auto;
+  }
+}
+#hero .hero-info {
+  width: 50%;
+  float: left;
+}
+@media (max-width: 991px) {
+  #hero .hero-info {
+    width: 80%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  #hero .hero-info {
+    width: 100%;
+  }
+}
+#hero .hero-info h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+#hero .hero-info h2 span {
+  color: #74b5fc;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  #hero .hero-info h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+#hero .hero-info .btn-get-started, #hero .hero-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+#hero .hero-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+#hero .hero-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+#hero .hero-info .btn-services {
+  border: 2px solid #fff;
+}
+#hero .hero-info .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+.clearfix::after{display:block;clear:both;content:""}
+.img-fluid{max-width:100%;height:auto}
+.hero-container,.hero-container-fluid,.hero-container-lg,.hero-container-md,.hero-container-sm,.hero-container-xl,.hero-container-xxl{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}@media (min-width:576px){.hero-container,.hero-container-sm{max-width:540px}}@media (min-width:768px){.hero-container,.hero-container-md,.hero-container-sm{max-width:720px}}@media (min-width:992px){.hero-container,.hero-container-lg,.hero-container-md,.hero-container-sm{max-width:960px}}@media (min-width:1200px){.hero-container,.hero-container-lg,.hero-container-md,.hero-container-sm,.hero-container-xl{max-width:1140px}}@media (min-width:1400px){.hero-container,.hero-container-lg,.hero-container-md,.hero-container-sm,.hero-container-xl,.hero-container-xxl{max-width:1320px}}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+.about .content ul li:first-child {
+  margin-top: 35px;
+}
+.about .content ul i {
+  background: #fff;
+  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+  font-size: 24px;
+  padding: 20px;
+  margin-right: 15px;
+  color: #106eea;
+  border-radius: 50px;
+}
+.about .content ul h5 {
+  font-size: 18px;
+  color: #555555;
+}
+.about .content ul p {
+  font-size: 15px;
+}
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+.section-bg {
+  background-color: #f6f9fe;
+}
+
+.about-row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.about-row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+
+.col-lg-6{flex:0 0 auto;width:50%}
+.pt-4{padding-top:1.5rem!important}
+.pt-lg-0{padding-top:0!important}
+.d-flex{display:flex!important}
+.flex-column{flex-direction:column!important}
+.justify-content-center{justify-content:center!important}
+.fst-italic{font-style:italic!important}
